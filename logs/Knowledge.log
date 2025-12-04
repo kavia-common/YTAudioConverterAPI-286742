@@ -195,3 +195,35 @@
 2025-12-04 16:25:02,817 - Knowledge - INFO - ⚡ Total Redis path: 1.05s (vs ~300s from disk)
 2025-12-04 16:25:03,059 - Knowledge - INFO - Saving knowledge to Redis...
 2025-12-04 16:25:03,249 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-12-04 19:12:20,752 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-12-04 19:12:21,068 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-12-04 19:12:21,252 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-12-04 19:12:21,420 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=25, max_concurrent_llm_calls=50
+2025-12-04 19:12:22,476 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2025-12-04 19:12:22,627 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2025-12-04 19:12:22,837 - Knowledge - INFO - load persisted knowledge: begin
+2025-12-04 19:12:23,049 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/YTAudioConverterAPI-286742.git:kavia-liwa-dev_YTAudioConverterAPI_issue_1_5d0d00c6
+2025-12-04 19:12:23,257 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ffb66d5b790>
+2025-12-04 19:12:23,536 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/main.py
+2025-12-04 19:12:23,728 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/YTAudioConverterAPI-286742.git:kavia-liwa-dev_YTAudioConverterAPI_issue_1_5d0d00c6
+2025-12-04 19:12:23,911 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ffb66d5b790>
+2025-12-04 19:12:24,114 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/requirements.txt
+2025-12-04 19:12:24,280 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/YTAudioConverterAPI-286742.git:kavia-liwa-dev_YTAudioConverterAPI_issue_1_5d0d00c6
+2025-12-04 19:12:24,438 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ffb66d5b790>
+2025-12-04 19:12:24,674 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/README.md
+2025-12-04 19:12:24,911 - Knowledge - INFO - Loaded 3 files from persisted knowledge
+2025-12-04 19:12:25,127 - Knowledge - INFO - load persisted knowledge: end
+2025-12-04 19:12:25,319 - Knowledge - INFO - Redis support added with prefix knowledge:b7075t9:
+2025-12-04 19:12:25,584 - Knowledge - INFO - Starting knowledge initialization for ID: BddruS-b7075t9
+2025-12-04 19:12:25,808 - Knowledge - INFO - 🔍 Checking Redis for build_id: b7075t9
+2025-12-04 19:12:25,985 - Knowledge - INFO - 🔍 Full session ID: BddruS-b7075t9
+2025-12-04 19:12:26,235 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b7075t9:
+2025-12-04 19:12:26,441 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2025-12-04 19:12:26,632 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2025-12-04 19:12:26,850 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b7075t9
+2025-12-04 19:12:27,093 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2025-12-04 19:12:27,265 - Knowledge - INFO - ✅ Successfully loaded from Redis: 3 files
+2025-12-04 19:12:27,427 - Knowledge - INFO - ✅ Redis load complete: 3 files in 0.99s
+2025-12-04 19:12:27,633 - Knowledge - INFO - ⚡ Total Redis path: 0.99s (vs ~300s from disk)
+2025-12-04 19:12:27,832 - Knowledge - INFO - Saving knowledge to Redis...
+2025-12-04 19:12:28,052 - Knowledge - INFO - Knowledge saved to Redis successfully
