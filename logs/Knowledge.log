@@ -111,3 +111,54 @@
 2025-12-03 20:45:39,328 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 240, Duration: 0ms
 2025-12-03 20:45:39,594 - Knowledge - INFO - Saving knowledge to Redis...
 2025-12-03 20:45:39,762 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-12-04 02:22:25,730 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-12-04 02:22:26,047 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-12-04 02:22:26,224 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-12-04 02:22:26,476 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=25, max_concurrent_llm_calls=50
+2025-12-04 02:22:27,375 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2025-12-04 02:22:27,555 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2025-12-04 02:22:27,797 - Knowledge - INFO - load persisted knowledge: begin
+2025-12-04 02:22:28,044 - Knowledge - INFO - Persisted knowledge files in /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/.knowledge have been renamed to use .json
+2025-12-04 02:22:28,231 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/YTAudioConverterAPI-286742.git:kavia-liwa-dev_YTAudioConverterAPI_issue_1_5d0d00c6
+2025-12-04 02:22:28,425 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fbf7dbbc590>
+2025-12-04 02:22:28,686 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/YTAudioConverterAPI-286742.git:kavia-liwa-dev_YTAudioConverterAPI_issue_1_5d0d00c6
+2025-12-04 02:22:28,904 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fbf7dbbc590>
+2025-12-04 02:22:29,078 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/main.py
+2025-12-04 02:22:29,333 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 78ms
+2025-12-04 02:22:30,454 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: main.py, Duration: 953ms
+2025-12-04 02:22:30,682 - Knowledge - INFO - persist search terms embedding for main.py
+2025-12-04 02:22:30,907 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/main.py
+2025-12-04 02:22:31,077 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/YTAudioConverterAPI-286742.git:kavia-liwa-dev_YTAudioConverterAPI_issue_1_5d0d00c6
+2025-12-04 02:22:31,247 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fbf7dbbc590>
+2025-12-04 02:22:31,472 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/YTAudioConverterAPI-286742.git:kavia-liwa-dev_YTAudioConverterAPI_issue_1_5d0d00c6
+2025-12-04 02:22:31,625 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fbf7dbbc590>
+2025-12-04 02:22:31,800 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/requirements.txt
+2025-12-04 02:22:32,069 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 81ms
+2025-12-04 02:22:34,360 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: requirements.txt, Duration: 2071ms
+2025-12-04 02:22:34,587 - Knowledge - INFO - persist search terms embedding for requirements.txt
+2025-12-04 02:22:34,810 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/requirements.txt
+2025-12-04 02:22:35,034 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/YTAudioConverterAPI-286742.git:kavia-liwa-dev_YTAudioConverterAPI_issue_1_5d0d00c6
+2025-12-04 02:22:35,244 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fbf7dbbc590>
+2025-12-04 02:22:35,493 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/YTAudioConverterAPI-286742.git:kavia-liwa-dev_YTAudioConverterAPI_issue_1_5d0d00c6
+2025-12-04 02:22:35,697 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fbf7dbbc590>
+2025-12-04 02:22:35,941 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/README.md
+2025-12-04 02:22:36,202 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 80ms
+2025-12-04 02:22:36,676 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: README.md, Duration: 262ms
+2025-12-04 02:22:36,842 - Knowledge - INFO - persist search terms embedding for README.md
+2025-12-04 02:22:37,014 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/286742/b7075t9/YTAudioConverterAPI-286742/README.md
+2025-12-04 02:22:37,213 - Knowledge - INFO - Loaded 3 files from persisted knowledge
+2025-12-04 02:22:37,387 - Knowledge - INFO - load persisted knowledge: end
+2025-12-04 02:22:37,577 - Knowledge - INFO - Redis support added with prefix knowledge:b7075t9:
+2025-12-04 02:22:37,838 - Knowledge - INFO - Starting knowledge initialization for ID: sMsuhA-b7075t9
+2025-12-04 02:22:38,005 - Knowledge - INFO - 🔍 Checking Redis for build_id: b7075t9
+2025-12-04 02:22:38,216 - Knowledge - INFO - 🔍 Full session ID: sMsuhA-b7075t9
+2025-12-04 02:22:38,419 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b7075t9:
+2025-12-04 02:22:38,642 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2025-12-04 02:22:38,844 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2025-12-04 02:22:39,068 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b7075t9
+2025-12-04 02:22:39,255 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2025-12-04 02:22:39,478 - Knowledge - INFO - ✅ Successfully loaded from Redis: 3 files
+2025-12-04 02:22:39,676 - Knowledge - INFO - ✅ Redis load complete: 3 files in 1.03s
+2025-12-04 02:22:39,897 - Knowledge - INFO - ⚡ Total Redis path: 1.03s (vs ~300s from disk)
+2025-12-04 02:22:40,077 - Knowledge - INFO - Saving knowledge to Redis...
+2025-12-04 02:22:40,298 - Knowledge - INFO - Knowledge saved to Redis successfully
